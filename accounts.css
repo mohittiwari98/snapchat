@@ -7,7 +7,7 @@
     outline: none !important;
   }
 
-  /* Disable caret globally */
+  /* Disable caret global*/
   body {
     caret-color: transparent;
     font-family: 'Poppins', sans-serif;
