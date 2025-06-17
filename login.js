@@ -1,6 +1,6 @@
 //script of login.html file
 
-
+//script for login
 function validatePassword(event) {
     const passwordInput = document.getElementById('password');
     const incorrectMessage = document.querySelector('.incorrect');
