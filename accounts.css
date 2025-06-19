@@ -6,7 +6,7 @@
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
     outline: none !important;
   }
-
+/*changing padding if required*/
   /* Disable caret global*/
   body {
     caret-color: transparent;
