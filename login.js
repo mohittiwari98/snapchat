@@ -1,4 +1,4 @@
-//script of login.html file
+//script of login file
 
 //script for login
 function validatePassword(event) {
