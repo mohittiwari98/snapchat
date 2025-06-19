@@ -3,3 +3,4 @@
     // Add the 'loaded' class to the body to hide the loader
     document.body.classList.add('loaded');
   };
+//account part
